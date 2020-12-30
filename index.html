@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Your Title Here</title>
+
+<body>
+    <!-- Visible if javascript is disable  -->
+    <noscript>
+        <p style="
+          text-align: center;
+          background-color: black;
+          color: white;
+          font-family: sans-serif;
+          padding: 40px;
+          margin: auto;
+          margin-top: 10%;
+          line-height: 1.4;
+          width: 50%;
+          border: 10px solid red;
+        ">
+            <span style="font-size: 70px">🤖</span><br /><strong>You need to enable Javascript to use this
+                website</strong><br /><a href="https://www.enable-javascript.com/" target="_blank"
+                style="color: white;">
+                Click here for instructions
+            </a>
+        </p>
+    </noscript>
+    <!-- Visible if javascript is disable -->
+
+    <!-- Visible if javascript is enabled // Chance Here-->
+    <p id="javascript" style="
+        display: none;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        padding: 40px;
+        margin: auto;
+        margin-top: 10%;
+        line-height: 1.4;
+        width: 50%;
+        border: 10px solid green;
+      ">
+        <span style="font-size: 70px">👨‍💻</span><br /><strong>Javascript is enabled in your web browser. If you
+            disable JavaScript, this text will change.</strong><br />(Design by Ismail Enes Ayhan)
+    </p>
+    <!-- Visible if javascript is enabled  -->
+
+
+    <script>
+        document.getElementById("javascript").style.display = "block";
+    </script>
+</body>
+
+</html>
